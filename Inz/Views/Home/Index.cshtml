@@ -1,0 +1,33 @@
+﻿@using Inz.Data
+@{
+    ViewData["Title"] = "Home Page";
+}
+@model List<Community>
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title> Background  </title>
+    <style>
+        html, body {
+            height: 150%;
+            margin: 0px;
+        }
+
+        .container {
+            height: 60%;
+            background: orange;
+        }
+    </style>
+</head>
+<body>
+    <form id="form" runat="server">
+    <div class="container">
+        <center><h2> Witamy na stronie Wspólne Hobby! Znajdziesz tu ludzi do wspólnej rozgrywki.</h2></center>
+        <div>
+            <img src="~/lib/image/difference-between-esports-and-sports-FI-800x752.jpg" height="50%" width="100%"/>
+        </div>
+    </div>
+    </form>
+</body>
+</html>
